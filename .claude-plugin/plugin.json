@@ -1,0 +1,19 @@
+{
+  "name": "raven-guard",
+  "description": "Production protection layer for Claude Code. Git watch, DB watch, infra watch, firewall watch, incident management. Hard-blocks destructive operations. Install alongside Raven.",
+  "version": "2.9.1",
+  "author": {
+    "name": "Giggso / AntiGravity Projects",
+    "email": "giggso.ravi@gmail.com",
+    "url": "https://github.com/giggsoinc/raven-guard"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/giggsoinc/raven-guard",
+  "categories": ["security", "enterprise", "governance"],
+  "tags": ["production", "guard", "incident", "firewall", "database", "git-protection", "enterprise"],
+  "requires": ["raven"],
+  "install": {
+    "type": "bash",
+    "command": "bash raven-guard-setup.sh"
+  }
+}
